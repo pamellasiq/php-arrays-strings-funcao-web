@@ -13,3 +13,11 @@ E para acessar cada item do array, usamos índices, que começam do zero. Por ex
 Nessa aula, aprendemos a usar o loop `for` para iterar sobre um array e exibir seus elementos. Vimos como usar o `count()` para determinar o tamanho do array e garantir que o loop percorra todos os elementos, mesmo que o tamanho do array mude.
 
 Também aprendemos que podemos usar arrays para armazenar diferentes tipos de dados, como números, strings e até mesmo outros arrays.
+
+# Aula sobre Arrays Associativos
+
+Nessa aula, aprendemos sobre arrays associativos, que são como mapas onde podemos associar um nome/índice a um valor. Esses índices podem ser numéricos ou strings, como "titular" ou "saldo".
+
+Criamos um exemplo com contas correntes, onde cada conta possui um titular e um saldo. Para acessar os valores dentro de um array associativo, usamos colchetes com o nome do índice, por exemplo: `$conta1['titular']`.
+
+Também aprendemos a iterar por um array de contas usando um loop `for` e a exibir o titular de cada conta.
