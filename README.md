@@ -22,7 +22,7 @@ Criamos um exemplo com contas correntes, onde cada conta possui um titular e um 
 
 Também aprendemos a iterar por um array de contas usando um loop `for` e a exibir o titular de cada conta.
 
-## Tipos de Chave
+# Tipos de Chave
 
 Nela, a gente aprendeu que o PHP só aceita chaves de arrays associativos como **inteiros** ou **strings**. Se você tentar usar outros tipos de dados, como float ou booleano, eles serão convertidos para inteiro ou string.
 
@@ -49,7 +49,7 @@ arrays podem crescer e podemos adicionar novos elementos
 em arrays simples, com índice numérico, basta usar [] para adicionar um elemento no final (por exemplo, $lista[] = 12;)
 nesse caso o PHP automaticamente incrementa o índice
 
-## Subrotinas
+# Subrotinas
 
 Nessa aula, aprendemos a criar funções no PHP, que são como blocos de código reutilizáveis que podem ser chamados em diferentes partes do nosso programa.
 
