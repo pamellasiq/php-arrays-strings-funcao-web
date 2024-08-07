@@ -70,3 +70,23 @@ Já a passagem por referência nos permite modificar a variável original direta
 A passagem por referência pode ser útil em algumas situações, mas é importante ter cuidado, pois podemos acabar modificando a variável original de forma inesperada.
 
 No final da aula, vimos que o PHP oferece algumas facilidades para trabalhar com listas, como a possibilidade de pegar apenas os primeiros itens de uma lista e atribuí-los a variáveis.
+
+# Servidores Web
+
+Primeiro, vimos que para um site funcionar, precisamos de um servidor. ️No passado, era preciso instalar programas como o XAMPP para isso, mas hoje o PHP já tem um servidor web integrado!
+
+Para usar esse servidor, basta executar um comando no terminal, como `php -S localhost:8000`. Depois, podemos acessar nosso site no navegador, digitando o endereço http://localhost:8000.
+
+O PHP busca um arquivo chamado `index` (como `index.html` ou `index.php`) para exibir na página. Se não encontrar, ele mostra um erro "404 Not Found".
+
+No exemplo da aula, acessamos `localhost:8080/banco.php` e vimos os dados do banco de dados no navegador.
+
+É importante entender como o PHP funciona em uma requisição web, pois isso é fundamental para desenvolvermos sites e aplicações web.
+
+# PHP com HTML
+
+Nessa aula, aprendemos como integrar o PHP com o HTML para criar páginas web dinâmicas. Vimos como usar o `echo` para exibir conteúdo PHP dentro do HTML, e como usar a tag `<?php ?>` para alternar entre código PHP e HTML.
+
+Também aprendemos a usar o método `list()` para simplificar a atribuição de valores de um array a variáveis.
+
+Por fim, exploramos a estrutura básica de um arquivo HTML e como inserir código PHP dentro dele, utilizando o `foreach` para iterar sobre um array de contas correntes e exibir seus dados.
