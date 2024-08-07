@@ -3,7 +3,9 @@
 // include 'funcoes.php';
 
 //arquivos obrigatórios
-require 'funcoes.php';
+require_once 'funcoes.php';
+
+// require_once inclui somente se não tiver incluido anteriormente
 
 $contasCorrentes = [
     '123.456.789-10' => [
