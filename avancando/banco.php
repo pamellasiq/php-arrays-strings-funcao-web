@@ -27,6 +27,9 @@ $contasCorrentes = [
 
 titularComLetrasMaiusculas($contasCorrentes['123.456.789-10']);
 
+// variável que apaga uma variável
+// unset($contasCorrentes['123.456.789-10']);
+
 //foreach >Para cada uma das contasCorrentes, chamada de conta.
 foreach ($contasCorrentes as $cpf => $conta){
     exibeMensagem(
