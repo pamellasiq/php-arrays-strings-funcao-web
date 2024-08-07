@@ -1,7 +1,17 @@
 <?php
-// subrotina
+// subrotinas
 function exibeMensagem ($mensagem) {
     echo $mensagem .PHP_EOL;
+}
+
+function sacar($conta, $valorASacar){
+    if ($valorASacar > $conta['saldo']){
+        exibeMensagem("Você não pode sacar esse valor!");
+    }else{
+        $conta['saldo']-= $valorASacar;
+    }
+
+    return $conta;
 }
 
 $contasCorrentes = [
@@ -21,14 +31,6 @@ $contasCorrentes = [
         'saldo' => 300
     ]
 ];
-
-//adicionar item em array associativo
-
-// $contasCorrentes ['123.258.852-93'] = [
-//     'titular' =>'Cláudia',
-//     'cargo' => 'Auxiliar de Limpeza',
-//     'saldo' => 1500
-// ];
 
 //subtraio o valor dele mesmo
 $contasCorrentes['123.456.789-10']['saldo'] -=500;
