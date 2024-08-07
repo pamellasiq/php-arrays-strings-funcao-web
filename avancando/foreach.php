@@ -1,21 +1,29 @@
 <?php
 
 $contasCorrentes = [
-    12345678910 => [
+    '123.456.789-10' => [
         'titular' => 'Pampam',
         'cargo' => 'Desenvolvedora',
         'saldo' => 10000,
     ],
-    12345648911 => [
+    '123.456.489-11' => [
         'titular' => 'Marcia',
         'cargo' => 'Gestora',
         'saldo' => 100000
     ],
-    12325678910 => [
+    '123.256.789-10' => [
         'titular' => 'Roberto',
         'cargo' => 'Estagiário',
         'saldo' => 300
     ]
+];
+
+//adicionar item em array associativo
+
+$contasCorrentes ['123.258.852-93'] = [
+    'titular' =>'Cláudia',
+    'cargo' => 'Auxiliar de Limpeza',
+    'saldo' => 1500
 ];
 
 //foreach >Para cada uma das contasCorrentes, chamada de conta.
