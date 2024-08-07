@@ -53,10 +53,11 @@ $contasCorrentes['123.456.789-10'] = depositar(
 
 //foreach >Para cada uma das contasCorrentes, chamada de conta.
 foreach ($contasCorrentes as $cpf => $conta){
-    exibeMensagem('-------------------------------------------' .PHP_EOL.
-                    'CPF: '. $cpf .PHP_EOL.
-                    'Titular:'.$conta['titular'] .PHP_EOL.
-                    'Cargo: '.$conta['cargo'] .PHP_EOL.
-                    'Saldo: R$ '.$conta['saldo'] .PHP_EOL.
-                    '-------------------------------------------' .PHP_EOL);
+    exibeMensagem(
+        mensagem: "-------------------------------------------
+        CPF: {$cpf}
+        Titular: {$conta['titular']}
+        Cargo: {$conta['cargo']}
+        Saldo: R$ {$conta['saldo']}
+------------------------------------------- ");
 }
