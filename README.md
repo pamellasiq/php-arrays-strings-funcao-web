@@ -1,4 +1,15 @@
-# Lista de Dados
+# Estudos PHP:
+
+1. Lista de Dados
+2. Uso de Arrays e Loop For
+3. Aula sobre Arrays Associativos
+4. Tipos de Chave
+5. Subrotinas
+6. Valor vs Referência
+7. Servidores Web
+8. PHP com HTML
+
+## Lista de Dados
 
 Nessa aula, aprendemos sobre uma estrutura de dados super importante chamada **array**, que nada mais é do que uma lista de informações.
 
@@ -8,13 +19,13 @@ Vimos que podemos criar um array de duas maneiras: usando a função `array()` o
 
 E para acessar cada item do array, usamos índices, que começam do zero. Por exemplo, para pegar o primeiro item do array, usamos o índice `0`.
 
-# Uso de Arrays e Loop For
+## Uso de Arrays e Loop For
 
 Nessa aula, aprendemos a usar o loop `for` para iterar sobre um array e exibir seus elementos. Vimos como usar o `count()` para determinar o tamanho do array e garantir que o loop percorra todos os elementos, mesmo que o tamanho do array mude.
 
 Também aprendemos que podemos usar arrays para armazenar diferentes tipos de dados, como números, strings e até mesmo outros arrays.
 
-# Aula sobre Arrays Associativos
+## Aula sobre Arrays Associativos
 
 Nessa aula, aprendemos sobre arrays associativos, que são como mapas onde podemos associar um nome/índice a um valor. Esses índices podem ser numéricos ou strings, como "titular" ou "saldo".
 
@@ -22,7 +33,7 @@ Criamos um exemplo com contas correntes, onde cada conta possui um titular e um 
 
 Também aprendemos a iterar por um array de contas usando um loop `for` e a exibir o titular de cada conta.
 
-# Tipos de Chave
+## Tipos de Chave
 
 Nela, a gente aprendeu que o PHP só aceita chaves de arrays associativos como **inteiros** ou **strings**. Se você tentar usar outros tipos de dados, como float ou booleano, eles serão convertidos para inteiro ou string.
 
@@ -49,7 +60,7 @@ arrays podem crescer e podemos adicionar novos elementos
 em arrays simples, com índice numérico, basta usar [] para adicionar um elemento no final (por exemplo, $lista[] = 12;)
 nesse caso o PHP automaticamente incrementa o índice
 
-# Subrotinas
+## Subrotinas
 
 Nessa aula, aprendemos a criar funções no PHP, que são como blocos de código reutilizáveis que podem ser chamados em diferentes partes do nosso programa.
 
@@ -59,7 +70,7 @@ Vimos como podemos chamar essa função em diferentes pontos do nosso código, e
 
 No próximo vídeo, vamos aprender a criar uma função para realizar o saque, isolando essa funcionalidade em um bloco de código reutilizável.
 
-# Valor vs Referência
+## Valor vs Referência
 
 Nessa aula, aprendemos sobre a diferença entre passar variáveis por valor e por referência em PHP.
 
@@ -71,7 +82,7 @@ A passagem por referência pode ser útil em algumas situações, mas é importa
 
 No final da aula, vimos que o PHP oferece algumas facilidades para trabalhar com listas, como a possibilidade de pegar apenas os primeiros itens de uma lista e atribuí-los a variáveis.
 
-# Servidores Web
+## Servidores Web
 
 Primeiro, vimos que para um site funcionar, precisamos de um servidor. ️No passado, era preciso instalar programas como o XAMPP para isso, mas hoje o PHP já tem um servidor web integrado!
 
@@ -83,7 +94,7 @@ No exemplo da aula, acessamos `localhost:8080/banco.php` e vimos os dados do ban
 
 É importante entender como o PHP funciona em uma requisição web, pois isso é fundamental para desenvolvermos sites e aplicações web.
 
-# PHP com HTML
+## PHP com HTML
 
 Nessa aula, aprendemos como integrar o PHP com o HTML para criar páginas web dinâmicas. Vimos como usar o `echo` para exibir conteúdo PHP dentro do HTML, e como usar a tag `<?php ?>` para alternar entre código PHP e HTML.
 
