@@ -28,3 +28,8 @@ function depositar(array $conta, float $valorADepositar) :array {
     return $conta;
 }
 
+//&serve para passar uma referencia
+function titularComLetrasMaiusculas (array &$conta) {
+    //pega uma string e coloca todos os caracteres em letra maiúscula
+    $conta['titular'] = mb_strtoupper($conta['titular']);
+}

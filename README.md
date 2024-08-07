@@ -58,3 +58,15 @@ Criamos uma função chamada `exibeMensagem()` que recebe uma mensagem como par�
 Vimos como podemos chamar essa função em diferentes pontos do nosso código, evitando a repetição de código e tornando nosso programa mais organizado e eficiente.
 
 No próximo vídeo, vamos aprender a criar uma função para realizar o saque, isolando essa funcionalidade em um bloco de código reutilizável.
+
+# Valor vs Referência
+
+Nessa aula, aprendemos sobre a diferença entre passar variáveis por valor e por referência em PHP.
+
+Quando passamos uma variável por valor, estamos criando uma cópia da variável dentro da função. Isso significa que qualquer alteração feita na cópia dentro da função não afetará a variável original.
+
+Já a passagem por referência nos permite modificar a variável original diretamente dentro da função. Para isso, usamos o símbolo `&` antes do nome da variável na definição da função.
+
+A passagem por referência pode ser útil em algumas situações, mas é importante ter cuidado, pois podemos acabar modificando a variável original de forma inesperada.
+
+No final da aula, vimos que o PHP oferece algumas facilidades para trabalhar com listas, como a possibilidade de pegar apenas os primeiros itens de uma lista e atribuí-los a variáveis.

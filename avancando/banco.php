@@ -25,11 +25,7 @@ $contasCorrentes = [
     ]
 ];
 
-
-$contasCorrentes['123.456.789-10'] = depositar(
-    $contasCorrentes['123.456.789-10'], 900
-);
-
+titularComLetrasMaiusculas($contasCorrentes['123.456.789-10']);
 
 //foreach >Para cada uma das contasCorrentes, chamada de conta.
 foreach ($contasCorrentes as $cpf => $conta){
