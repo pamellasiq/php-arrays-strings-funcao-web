@@ -8,11 +8,24 @@ function sacar($conta, $valorASacar){
     if ($valorASacar > $conta['saldo']){
         exibeMensagem("Você não pode sacar esse valor!");
     }else{
+        //subtraio o valor dele mesmo
         $conta['saldo']-= $valorASacar;
     }
 
     return $conta;
 }
+
+function depositar(array $conta, float $valorADepositar) :array {
+    if ($valorADepositar > 0) {
+        $conta['saldo'] += $valorADepositar;
+    } else {
+        exibeMensagem("Depósitos precisam ser positivos");
+    }
+
+    return $conta;
+}
+
+
 
 $contasCorrentes = [
     '123.456.789-10' => [
@@ -32,14 +45,11 @@ $contasCorrentes = [
     ]
 ];
 
-//subtraio o valor dele mesmo
-$contasCorrentes['123.456.789-10']['saldo'] -=500;
 
-if( 500 > $contasCorrentes['123.456.489-11']['saldo']){
-    exibeMensagem("Você não pode sacar este valor!");
-}else{
-$contasCorrentes['123.456.789-10']['saldo'] -=500;
-}
+$contasCorrentes['123.456.789-10'] = depositar(
+    $contasCorrentes['123.456.789-10'], 900
+);
+
 
 //foreach >Para cada uma das contasCorrentes, chamada de conta.
 foreach ($contasCorrentes as $cpf => $conta){
