@@ -21,3 +21,15 @@ Nessa aula, aprendemos sobre arrays associativos, que são como mapas onde podem
 Criamos um exemplo com contas correntes, onde cada conta possui um titular e um saldo. Para acessar os valores dentro de um array associativo, usamos colchetes com o nome do índice, por exemplo: `$conta1['titular']`.
 
 Também aprendemos a iterar por um array de contas usando um loop `for` e a exibir o titular de cada conta.
+
+## Tipos de Chave
+
+Nela, a gente aprendeu que o PHP só aceita chaves de arrays associativos como **inteiros** ou **strings**. Se você tentar usar outros tipos de dados, como float ou booleano, eles serão convertidos para inteiro ou string.
+
+Por exemplo, se você usar a chave `'1'` (string) e `1` (inteiro), o PHP vai considerar apenas a chave `1` (inteiro), pois ele tenta converter a string para inteiro.
+
+É importante lembrar que essa conversão pode gerar resultados inesperados, como sobrescrever valores anteriores.
+
+Para evitar problemas, o ideal é manter uma consistência nos tipos de dados das chaves do seu array. Se você usar strings, use sempre strings. Se usar inteiros, use sempre inteiros.
+
+Lembre-se: a chave do array associativo deve ter um significado, e usar tipos de dados diferentes pode comprometer essa lógica.
