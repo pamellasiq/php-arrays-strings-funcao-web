@@ -33,3 +33,28 @@ Por exemplo, se você usar a chave `'1'` (string) e `1` (inteiro), o PHP vai con
 Para evitar problemas, o ideal é manter uma consistência nos tipos de dados das chaves do seu array. Se você usar strings, use sempre strings. Se usar inteiros, use sempre inteiros.
 
 Lembre-se: a chave do array associativo deve ter um significado, e usar tipos de dados diferentes pode comprometer essa lógica.
+
+Nessa aula, aprendemos como criar uma estrutura de dados mais complexa usando e combinando arrays associativos. Vimos e aprendemos que:
+
+um array associativo sempre define elementos composto por uma chave e um valor
+a associação entre chave e valor é feito com =>
+a chave funciona como um índice explicito (definido por nós)
+o valor pode ser um valor primitivo ou outro array
+a chave deve ser do tipo inteiro ou string, todos os outros tipos o PHP tenta converter
+um array associativo também é chamado de mapa ou dicionário
+podemos combinar um array simples e array associativo para definir estruturas mais complexas
+o laço foreach oferece uma forma mais expressiva de iteração
+no foreach podemos acessar o índice e o valor do elemento da iteração
+arrays podem crescer e podemos adicionar novos elementos
+em arrays simples, com índice numérico, basta usar [] para adicionar um elemento no final (por exemplo, $lista[] = 12;)
+nesse caso o PHP automaticamente incrementa o índice
+
+## Subrotinas
+
+Nessa aula, aprendemos a criar funções no PHP, que são como blocos de código reutilizáveis que podem ser chamados em diferentes partes do nosso programa.
+
+Criamos uma função chamada `exibeMensagem()` que recebe uma mensagem como parâmetro e a exibe na tela, junto com uma quebra de linha.
+
+Vimos como podemos chamar essa função em diferentes pontos do nosso código, evitando a repetição de código e tornando nosso programa mais organizado e eficiente.
+
+No próximo vídeo, vamos aprender a criar uma função para realizar o saque, isolando essa funcionalidade em um bloco de código reutilizável.
